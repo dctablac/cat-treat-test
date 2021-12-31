@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="content">
+
         <nav class="nav-bar">
             <div class="menu">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -26,48 +27,67 @@
             </div>
         </nav>
 
-        <img src="assets/cat_image1_mobile.png" alt="cat_wanting_treat">
+        <section class="row-1">
+            <div class="row-1-image-container">
+                <img class="cat-wanting-treat-img mobile-display" src="assets/cat_image1_mobile.png" alt="cat_wanting_treat">
+                <img id="cat-wanting-treat-desktop" class="cat-wanting-treat-img desktop-display" src="assets/cat_image1_desktop.png" alt="cat_wanting_treat">
+            </div>
 
-        <section class="free-trial-content">
-            <h1>Treat your pet (and you). It's on us!</h1>
-            <p class="free-trial-description">
-                Treat your pet to a healthy treat for <span class="bold">free</span> to kick off
-                your Public Goods trial membership.
-            </p>
-            <h2>See what it's like to be a Public Goods member.</h2>
-            <ul class="free-trial-content-list">
-                <li>
-                    Included in your bundle is a free 2-week membership
-                    that gives you unlimited access to our entire collection of sustainable essentials.
-                </li>
-                <li>
-                    Take a load off. We make it easy for you to make better choices. Always included:
-                    eco-friendly products you can trust.
-                </li>
-            </ul>
+            <section class="free-trial-content">
+                <h1>Treat your pet (and you). It's on us!</h1>
+                <p class="free-trial-description">
+                    Treat your pet to a healthy treat for <span class="bold">free</span> to kick off
+                    your Public Goods trial membership.
+                </p>
+                <h2>See what it's like to be a Public Goods member.</h2>
+                <ul class="free-trial-content-list">
+                    <li>
+                        Included in your bundle is a free 2-week membership
+                        that gives you unlimited access to our entire collection of sustainable essentials.
+                    </li>
+                    <li>
+                        Take a load off. We make it easy for you to make better choices. Always included:
+                        eco-friendly products you can trust.
+                    </li>
+                </ul>
+                <button class="btn-free-offer desktop-display">Claim your free offer</button>
+            </section>
         </section>
 
-        <section class="treat-image-container">
-            <h4>OUR TREAT</h4>
-            <img src="assets/cat_treats_fd_minnows_01 3.png" alt="cat_treats">
-            <h3>Freeze Dried Minnows</h3>
-            <p>Healthy ingredients with nothing to hide.</p>
+        <section class="treat-image-container row-2">
+            <h3 class="treat-images-title">OUR TREAT</h3>
+            <div class="treat-images">
+                <div class="treat-image">
+                    <img src="assets/cat_treats_fd_minnows_01 3.png" alt="cat_treats">
+                    <h4>Freeze Dried Minnows</h4>
+                    <p>Healthy ingredients with nothing to hide.</p>
+                </div>
+                <div class="treat-image desktop-display">
+                    <img src="assets/cat_treats_fd_minnows_01 3.png" alt="cat_treats">
+                    <h4>Freeze Dried Minnows</h4>
+                    <p>Healthy ingredients with nothing to hide.</p>
+                </div>
+            </div>
         </section>
 
-        <img src="assets/cat_image2_mobile.png" alt="cat_high_five">
+        <section class="row-3">
+            <img class="cat-high-five-img" src="assets/cat_image2_desktop.png" alt="cat_high_five">
 
-        <section class="membership-description">
-            <h2>PET-APPROVED</h2>
-            <h3>It feels good to be a member.</h3>
-            <p>After your free trial, become a full-time member with benefits for $59 a year.</p>
-            <ul class="membership-description-list">
-                <li><span>✓</span><p>Cancel anytime during your free trial.</p></li>
-                <li><span>✓</span><p>Free shipping on orders over $45.</p></li>
-                <li><span>✓</span><p>Direct-to-consumer prices on hundreds of premium products.</p></li>
-            </ul>
+            <section class="membership-description">
+                <h2>PET-APPROVED</h2>
+                <h3>It feels good to be a member.</h3>
+                <p>After your free trial, become a full-time member with benefits for $59 a year.</p>
+                <ul class="membership-description-list">
+                    <li><span>✓</span><p>Cancel anytime during your free trial.</p></li>
+                    <li><span>✓</span><p>Free shipping on orders over $45.</p></li>
+                    <li><span>✓</span><p>Direct-to-consumer prices on hundreds of premium products.</p></li>
+                </ul>
+            </section>
         </section>
+        
     </div>
-    <button class="btn-free-offer">Claim your free offer</button>
+
+    <button class="btn-free-offer mobile-display">Claim your free offer</button>
     <script src="js/script.js"></script>
 </body>
 </html>
