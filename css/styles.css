@@ -103,23 +103,27 @@ html, body {
 
 /* Treat Image Styles */
 
+.treat-image img {
+    width: 100%;
+}
+
 .treat-images {
     display: flex;
     justify-content: space-around;
 }
 
-.treat-image-container {
+.treat-images-container {
     background-color: var(--treat-img-bg-color);
     flex-direction: column;
-    padding: 2rem;
+    padding: 2rem 0;
     text-align: center;
 }
 
-.treat-image-container img {
+.treat-images-container img {
     background-color: var(--treat-img-bg-color);
 }
 
-.treat-image-container h4 {
+.treat-images-container h4 {
     margin-bottom: 1rem;
 }
 
@@ -186,7 +190,6 @@ html, body {
         justify-content: center;
     }
     .row-1,
-    .row-2,
     .row-3 {
         flex-direction: row;
     }
@@ -211,5 +214,9 @@ html, body {
     }
     .membership-description {
         padding: 7rem;
+    }
+    .treat-images-container {
+        /* flex-direction: column; */
+        padding: 2rem;
     }
 }
